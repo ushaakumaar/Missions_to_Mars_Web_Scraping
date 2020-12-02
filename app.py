@@ -34,3 +34,9 @@ def scraper():
     mars_facts.update({}, scrape_mars_list, upsert=True)
     return redirect("/", code=302)
 
+###############################################
+# Run the Flask Application
+###############################################
+
+if __name__ == "__main__":
+    app.run(debug=True)
