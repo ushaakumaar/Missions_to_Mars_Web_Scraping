@@ -6,6 +6,13 @@ from flask_pymongo import PyMongo
 import scrape_mars
 
 ###############################################
+# Flask Setup
+###############################################
+
+# create an app
+app = Flask(__name__)
+
+###############################################
 # Database Setup
 ###############################################
 
@@ -14,11 +21,8 @@ app.config["MONGO_URI"] = "mongodb://localhost:27017/mars_db"
 mongo = PyMongo(app)
 
 ###############################################
-# Flask Setup & Routes
+# Flask Routes
 ###############################################
-
-# create an app
-app = Flask(__name__)
 
 #define endpoints
 @app.route("/")
