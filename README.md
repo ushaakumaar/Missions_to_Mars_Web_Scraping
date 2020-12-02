@@ -21,7 +21,7 @@ Wrote a [Jupyter notebook](mission_to_mars.ipynb) script using BeautifulSoup, Pa
 > * Visited the Mars Facts webpage [here](https://space-facts.com/mars/) and used Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 > * Used Pandas to convert the data to a HTML table string and assigned the HTML table string to a variable that can be referenced later.
 
-#### Mars Hemispheres
+> #### Mars Hemispheres
 > * Visited the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
 > * Clicked each of the links to the hemispheres in order to find the image url to the full resolution image.
 > * Saved both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Used a Python dictionary to store the data using the keys `img_url` and `title`.
