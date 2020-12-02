@@ -4,10 +4,11 @@
 [About](#about) | [Web Scraping](#web-scraping) | [NASA Mars News](#nasa-mars-news) | [JPL Mars Space Featured Image](#jpl-mars-space-featured-image) | [Mars Facts](#mars-facts) | [Mars Hemispheres](#mars-hemispheres) | [MongoDB and Flask Application](#mongodb-and-flask-application) | [Programming Language / Applications Used](#programming-languages-and-applications-used) | [Contributors](#contributors)
 
 ### About
-
+***
 This project builds a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 ### Web Scraping
+***
 Wrote a [Jupyter notebook](mission_to_mars.ipynb) script using BeautifulSoup, Pandas, and Requests/Splinter to scrape the data related to Mission to Mars from various websites.
 
 > #### NASA Mars News
@@ -28,6 +29,7 @@ Wrote a [Jupyter notebook](mission_to_mars.ipynb) script using BeautifulSoup, Pa
 > * Appended the dictionary with the image url string and the hemisphere title to a list. This list contains one dictionary for each hemisphere.
 
 ### MongoDB and Flask Application
+***
 Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
 * Started by converting the Jupyter notebook into a Python script called [`scrape_mars.py`](scrape_mars.py) with a function called `scrape` that will execute all the scraping code from above and return one Python dictionary containing all of the scraped data.
@@ -38,6 +40,7 @@ Used MongoDB with Flask templating to create a new HTML page that displays all o
 * Click [here](screenshots/final_app_screenshot.png) to view the screenshot of the webpage created.
 
 ### Programming Languages and Applications Used
+***
 -   Python
     *   BeautifulSoup
     *   Splinter
@@ -49,4 +52,5 @@ Used MongoDB with Flask templating to create a new HTML page that displays all o
 -   Jupyter Notebook
 
 ### Contributors
+***
 - Usha Saravanakumar ([ushaakumaar](https://github.com/ushaakumaar))
